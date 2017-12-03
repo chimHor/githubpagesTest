@@ -18,7 +18,7 @@
 <section class="main-content">
 
 {% for tag in page.tags %}
-<a class="Nounderline" href="/tag/{{ tag }}"><code class="highligher-rouge"><nobr>{{ tag }}</nobr></code>&nbsp;</a>
+<a class="Nounderline" href="{{ site.baseurl }}/tag/{{ tag }}"><code class="highligher-rouge"><nobr>{{ tag }}</nobr></code>&nbsp;</a>
 {% endfor %}
 
 {{ content }}
