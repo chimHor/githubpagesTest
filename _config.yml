@@ -2,4 +2,6 @@ theme: jekyll-theme-cayman
 
 highlights: pygments
 
-title: chim-note
+title: 个人技术笔记
+description: tech note
+
